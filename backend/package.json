@@ -1,0 +1,15 @@
+{
+	"name": "muni-backend",
+	"scripts": {
+		"dev": "tsx watch src/server.ts",
+		"build": "tsc",
+		"start": "node dist/server.js"
+	},
+	"dependencies": {
+		"express": "^5.2.1"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"typescript": "^5.9.3"
+	}
+}
