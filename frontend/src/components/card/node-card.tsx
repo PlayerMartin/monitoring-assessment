@@ -1,8 +1,8 @@
 import { Node, Status } from "@/schemas/schemas";
 import clsx from "clsx";
-import { Timestamp } from "./card/timestamp";
-import { MemoryCard } from "./card/memory-card";
-import { CpuCard } from "./card/cpu-card";
+import { Timestamp } from "./timestamp";
+import { MemoryCard } from "./memory-card";
+import { CpuCard } from "./cpu-card";
 
 type NodeCardProps = {
   node: Node;
@@ -20,15 +20,15 @@ export function NodeCard({ node }: NodeCardProps) {
       label: "Online",
     },
     [Status.OFFLINE]: {
-      color: "bg-red-500",
-      textColor: "text-red-700",
-      bgColor: "bg-red-50",
-      borderColor: "border-red-200",
+      color: "bg-gray-500",
+      textColor: "text-gray-500",
+      bgColor: "bg-gray-50",
+      borderColor: "border-gray-200",
       label: "Offline",
     },
     [Status.MAINTENANCE]: {
       color: "bg-orange-500",
-      textColor: "text-orange-700",
+      textColor: "text-orange-500",
       bgColor: "bg-orange-50",
       borderColor: "border-orange-200",
       label: "Maintenance",

@@ -1,7 +1,7 @@
 "use client";
 
 import { useNodes } from "@/queries/node-query";
-import { NodeCard } from "../node-card";
+import { NodeCard } from "../card/node-card";
 import { Status } from "@/schemas/schemas";
 import { useState } from "react";
 import { Activity } from "lucide-react";
