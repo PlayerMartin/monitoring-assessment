@@ -20,5 +20,5 @@ app.get("/api/nodes", (req: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+  console.log(`Listening on port http://localhost:${port}`);
 });
