@@ -37,11 +37,7 @@ The base project structure and backend were handmade. Gemini coding agent was us
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) 22+
-- [pnpm](https://pnpm.io/)
-- [Docker](https://www.docker.com/) (optional, for containerised setup)
-
-### Local Development
+- [Docker](https://www.docker.com/) 
 
 ### Docker
 
